@@ -8,3 +8,4 @@ function jugar(eleccion) {
   }
   alert(mensaje);
 }
+

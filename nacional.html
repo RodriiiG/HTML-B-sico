@@ -80,7 +80,6 @@
         <tr>
           <th>Jugador</th>
           <th>Posición</th>
-          s
           <th>País</th>
           <th>Número</th>
         </tr>
@@ -143,6 +142,20 @@
         </tr>
       </tbody>
     </table>
+    <h3>Para hacerte socio del Decano uruguayo completa el siguiente formulario</h3>
+    <form id="Form" method="post" onsubmit="saludar(event)">
+        <label for="nombre">Nombre: </label><br>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre "><br><br>
+
+        <label for="edad">Edad: </label><br>
+        <input type="number" name="edad" id="edad" placeholder="Ingresa tu edad"><br><br>
+
+        <label for="jugadorfav">Jugador Favorito: </label><br>
+        <input name="jugadorfav" id="jugadorfav" rows="2" cols="10"placeholder="Ingresa tu juagdor favorito"></textarea><br><br>
+
+        <input type="submit" value="Enviar"><br>
+     </form>
+     <script src="nacional.js"></script>
     <h4>
       Para más información acerca de la historia de Nacional:
       <a href="https://atilio.uy/" target="_blank"
