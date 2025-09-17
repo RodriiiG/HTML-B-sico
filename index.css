@@ -1,14 +1,19 @@
-b{
-    text-align: center;
-    background-color: darkcyan;
+b {
+  text-align: center;
+  background-color: darkcyan;
 }
-body{
-    background-color: cornsilk;
-    text-align: center;
+body {
+  background-color: cornsilk;
+  text-align: center;
 }
-button{
-    border: 2px solid red;
-    background-color: blue;
-    color: white;
+button {
+  border: 2px solid red;
+  background-color: blue;
+  color: white;
+}
 
+a {
+  border: 2px solid grey;
+  background-color: black;
+  color: white;
 }
