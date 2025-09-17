@@ -30,15 +30,28 @@ p {
   text-align: center;
 }
 
+.logo {
+  display: flex;
+  gap: 1.5%;
+  justify-content: center;
+}
+
 .trabajos {
   display: flex;
   gap: 1.5%;
   justify-content: center;
 }
-.logo {
-  display: flex;
-  gap: 1.5%;
+
+.juego {
   justify-content: center;
+  text-align: center;
+}
+
+.juego button {
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  background-color: lightgray;
 }
 
 .redes {
@@ -54,7 +67,6 @@ p {
 a {
   color: blue;
   font-weight: bold;
-  text-decoration: none;
   margin-left: 5px;
 }
 
